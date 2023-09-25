@@ -1,3 +1,49 @@
+## Reactfolio
+
+# Description
+
+- What was your motivation?
+- Why did you build this project? (Note: the answer is not "Because it was a homework assignment.")
+- What problem does it solve?
+- What did you learn?
+
+The motivation behind building this project was to create a porfolio for myself and my websites, resume, etc. using react. I built this project so I could continue to work on it and use it to impress future employers. I now have a working project that has brought everything we've learned so far together and can be used to apply for web development jobs. I learned a lot about react and deploying a live website that uses react.
+
+# Screenshots
+
+![screenshot page 1](/images/reactfolio(home).PNG)
+![screenshot page 1](/images/reactfolio(about).PNG)
+![screenshot page 1](/images/reactfolio(contact).PNG)
+![screenshot page 1](/images/reactfolio(resume).PNG)
+![screenshot page 1](/images/reactfolio(resume).PNG)
+
+# Link
+
+https://brandonmountan.github.io/reactfolio/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
