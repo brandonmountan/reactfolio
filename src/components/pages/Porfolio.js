@@ -1,40 +1,21 @@
 import Card from 'react-bootstrap/Card';
-import CardGroup from 'react-bootstrap/CardGroup';
+import Pthree from '../images/project3img1.PNG';
+import './styling/Portfolio.css'
 
 function Portfolio() {
   return (
-    <CardGroup>
+    <>
       <Card>
-        <Card.Img variant="top" src="../images/daniele-colucci-OtXJhYjbKeg-unsplash.jpg" />
+        <a href='https://blooming-mesa-22889-acf656e63fb1.herokuapp.com/'>
+        <Card.Img class='p-3' variant="top" src={Pthree} />
+        </a>
         <Card.Body>
-          <Card.Title>Post Game</Card.Title>
           <Card.Text>
-            The final project of the boot camp.
+            Final bootcamp project. A social media and blog website built with React.
           </Card.Text>
         </Card.Body>
-        <Card.Link href="./resume.pdf">link coming soon...</Card.Link>
       </Card>
-      <Card>
-        <Card.Img variant="top" src="holder.js/100px160" />
-        <Card.Body>
-          <Card.Title>Rentopia</Card.Title>
-          <Card.Text>
-            This was a group project with an e commerce website.{' '}
-          </Card.Text>
-        </Card.Body>
-        <Card.Link href="https://salty-temple-87367-87002835adcc.herokuapp.com/">link</Card.Link>
-      </Card>
-      <Card>
-        <Card.Img variant="top" src="holder.js/100px160" />
-        <Card.Body>
-          <Card.Title>MarsMadness</Card.Title>
-          <Card.Text>
-            This was a group project
-          </Card.Text>
-        </Card.Body>
-        <Card.Link href="https://starlit-mermaid-2652a3.netlify.app/">link</Card.Link>
-      </Card>
-    </CardGroup>
+    </>
   );
 }
 
